@@ -6,7 +6,7 @@
 
 本仓库配置来自 [IvanSolis1989/OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY) 并修改
 
-双周周五下午十八点二十分构建最新版本并发布 [release](./releases/latest)
+双周周五下午十八点二十分构建最新版本并发布 [release](/releases/latest)
 
 ## 插件
 
