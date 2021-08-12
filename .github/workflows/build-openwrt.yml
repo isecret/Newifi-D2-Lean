@@ -13,6 +13,8 @@ name: Build Newifi D2 OpenWrt
 on:
   repository_dispatch:
   workflow_dispatch:
+    schedule:
+      - cron: '20 10 8-14,22-28 * 5'
     inputs:
       ssh:
         description: 'SSH connection to Actions'
@@ -30,7 +32,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
+  UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
 jobs:
