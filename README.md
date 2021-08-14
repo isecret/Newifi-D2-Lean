@@ -24,8 +24,6 @@
     - 硬盘休眠
     - FTP 服务器
     - 网络共享
-- VPN
-    - ZeroTier
 
 ## License
 
