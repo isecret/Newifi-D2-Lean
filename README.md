@@ -12,7 +12,7 @@
 
 - 服务
     - 京东签到服务
-    - ShadowSocksR Plus+
+    - OpenClash
     - 上网时间控制
     - 解锁网易云灰色歌曲
     - 动态 DNS
