@@ -13,13 +13,13 @@ name: Build Newifi D2 OpenWrt
 on:
   repository_dispatch:
   workflow_dispatch:
-    schedule:
-      - cron: '20 10 8-14,22-28 * 5'
     inputs:
       ssh:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+  schedule:
+      - cron: '0 23 * * 5'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
